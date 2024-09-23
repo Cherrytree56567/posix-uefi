@@ -5,7 +5,7 @@ TARGET = bootx64.efi
 #define your sources here
 SRCS = $(wildcard src/*.c)
 # define your default compiler flags
-CFLAGS = -pedantic -Wall -Wextra -Werror --ansi -O2
+CFLAGS = -pedantic -Wall -Wextra -Werror --ansi -O2 -Wcomment
 # define your default linker flags
 #LDFLAGS =
 # define your additional libraries here
